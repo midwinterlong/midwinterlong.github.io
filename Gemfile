@@ -7,5 +7,9 @@ gem "middleman-blog", "~> 3.5.0"
 
 gem 'middleman-deploy'
 
+gem 'bootstrap-sass', :require => false
+gem "middleman-livereload"
+gem 'nokogiri'
+
 # For feed.xml.builder
 gem "builder", "~> 3.0"

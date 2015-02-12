@@ -105,6 +105,7 @@ end
 activate :deploy do |deploy|
     deploy.method = :git
 
+    #deploy.build_before = true # default: false
     deploy.remote = "https://github.com/midwinterlong/midwinterlong.github.io.git"
     deploy.branch = "master"
 end
