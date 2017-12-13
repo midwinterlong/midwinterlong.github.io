@@ -82,10 +82,15 @@ activate :external_pipeline,
            latency: 1
 
 
-# deploy to github pages
-activate :deploy do |deploy|
-    deploy.deploy_method = :git
+# # deploy to github pages
+# activate :deploy do |deploy|
+#     deploy.deploy_method = :git
 
-    deploy.remote = "git@github.com:midwinterlong/midwinterlong.github.io.git"
-    deploy.branch = "master"
+#     deploy.remote = "git@github.com:midwinterlong/midwinterlong.github.io.git"
+#     deploy.branch = "master"
+# end
+
+
+activate :gh_pages do |gh_pages|
+  gh_pages.remote = 'git@github.com:midwinterlong/midwinterlong.github.io.git'
 end
