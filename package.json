@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "a blog",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.6.1",
+    "turbolinks": "^5.0.3"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
+  },
+  "repository": "git+ssh://git@bitbucket.org/long132/blog.git",
+  "author": "Long <long132@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/long132/blog#readme"
+}

@@ -1,0 +1,93 @@
+---
+title: chapter1
+date: 2016-09-19 08:49 UTC
+tags:
+---
+
+
+# Chapter 1: Introduction
+In late 1764, while repairing a small Newcomen steam engine, the
+idea of allowing steam to expand and condense in separate
+containers sprang into the mind of James Watt. He spent the next
+few months in unceasing labor building a model of the new engine.
+In 1768, after a series of improvements and substantial borrowing,
+he applied for a patent on the idea. August 1768 found Watt in
+London about the patent and he spent another 6 months working
+hard to obtain it. The patent was finally awardoed in January 1769.
+Nothing much happened, in terms of production, for a few years
+until, in 1775, after another major effort supported by his new
+business partner Matthew Boulton, Watt secured an Act of
+Parliament extending his 1769 patent until the year 1800. The great
+statesman Edmund Burke spoke eloquently in Parliament in the
+name of economic freedom and against the creation of unnecessary
+monopoly – but to no avail. The connections of Watt’s partner
+Boulton were too solid to be defeated by simple principle.
+Once Watt’s patents were secured, a substantial portion of
+his energy was devoted to fending off rival inventors. In 1782, Watt
+secured an additional patent, made “necessary in consequence of ...
+having been so unfairly anticipated, by [Matthew] Wasborough in
+the crank motion.” More dramatically, in the 1790s, when the
+superior and independently designed Hornblower engine was put
+into production, Boulton and Watt went after him with the full force
+of the legal system. In contrast to Watt, who died a rich man, the
+inventor Jonathan Hornblower was not only forced to close shop,
+but found himself ruined and in jail.
+
+Prior to the start of Watt’s commercial production in 1776,
+there were 510 steam engines in the U.K., most using the inefficient
+Newcomen design. These engines generated about 5,000
+horsepower. By 1800, when Watt's patents expired, there were still
+only 2,250 steam engines used in the U.K., of which only 449 were
+the superior Boulton and Watt engines, the rest being old
+Newcomen engines. The total horsepower of these engines was
+35,000 at best. In 1815, fifteen years after the expiration of the Watt
+patents, it is estimated that nearly 100,000 horsepower was installed
+in the U.K., while by 1830 the horsepower coming from steam
+engines reached 160,000. The fuel efficiency of steam engines is not
+thought to have changed at all during the period of Watt’s patent;
+while between 1810 and 1835 it is estimated to have increased by a
+factor of five. After the expiration of the patents in 1800, not only
+was there an explosion in the production of engines, but steam
+power finally came into its own as the driving force of the industrial
+revolution. In the next 30 years steam engines were modified and
+improved, and such crucial innovations as the steam train, the
+steamboat and the steam jenny all came into wide usage. The key
+innovation was the high-pressure steam engine –development of
+which had been blocked by Watt by strategically using his 1775
+patent. Many new improvements to the steam engine, such as those
+of William Bull, Richard Trevithick, and Arthur Woolf, became
+available by 1804: although developed earlier these innovations
+were kept idle until the Boulton and Watt patent expired. None of
+these innovators wished to incur the same fate as Jonathan
+Hornblower.
+
+Ironically, not only did Watt use the patent system as a legal
+cudgel with which to smash competition, but his own efforts at
+developing a superior steam engine were hindered by the very same
+patent system he used to keep competitors at bay. An important
+limitation of the original Newcomen engine was its inability to
+deliver a steady rotary motion. The most convenient solution,
+involving the combined use of the crank and a flywheel, relied on a
+method patented in 1780 by James Pickard, which prevented Watt
+from using it. Ironically, Watt also made various attempts at
+efficiently transforming reciprocating into rotary motion, reaching,
+apparently, the same solution as Pickard. But the existence of a
+patent forced him to contrive an alternative less efficient mechanical
+device, the “sun and planet” gear. It was only in 1794, after the
+expiration of Pickard’s patent that Boulton and Watt adopted the
+economically and technically superior crank.
+The impact of the expiration of his patents on Watt’s empire
+may come as a surprise as well. Despite the fact that “many
+establishments for making steam-engines of Mr. Watt's principle
+were then commenced” nevertheless “it would appear that the object
+principally aimed at was cheapness rather than excellence, for they
+fell short as to performance of the Soho [Boulton and Watt]
+engines.” As a result we find that “Boulton and Watt for many years
+afterwards kept up their price and had increased orders.”
+In fact, it is only after their patents expired that Boulton and
+Watt really started to manufacture steam engines. Before then their
+activity consisted primarily of extracting hefty monopolistic
+royalties. Independent contractors produced most of the parts, and
+Boulton and Watt merely oversaw the assembly of the components
+by the purchasers.
+

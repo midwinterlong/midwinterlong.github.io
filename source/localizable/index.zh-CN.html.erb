@@ -1,0 +1,55 @@
+---
+pageable: true
+per_page: 10
+---
+
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+
+<% page_articles.each_with_index do |article, i| %>
+
+    <section class="articles">
+        <div class="columns is-multiline is-centered">
+            <div class="column is-8">
+
+              <div class="card article">
+                <div class="card-content">
+                  <div class="media">
+                    
+                    <div class="media-content has-text-left">
+                    <h5>
+                      <span class="title is-5"><a href="<%= article.url %>"><%= article.title %></a></span>
+                    </h5>
+                          <h6>
+                            <span class="subtitle is-6"><%= article.date.strftime("%F %H:%M ") %> 
+                          </h6>
+                    </div>
+                  </div>
+
+
+                <div class="content article-body">
+                    <%= article.body %>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+    </section>
+
+<% end %>
+
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>
+
+中文在这里

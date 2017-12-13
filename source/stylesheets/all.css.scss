@@ -1,41 +1,16 @@
-@import "bootstrap";
-//@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
-/* Sticky footer styles
--------------------------------------------------- */
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma";
 
-// index.html
-html,body {
-  //height:100%;
+
+
+.turbolinks-progress-bar {
+    height: 1px;
+    background-color: red;
 }
 
-h1 {
-  font-family: 'Antic Slab', serif;
-  font-size:80px;
-  color:#DDCCEE;
-}
 
-.lead {
-	color:#DDCCEE;
+body { 
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  padding-top: 52px;
+  background: #F0F0F0;
 }
-
-/* Custom container */
-.container-full {
-  margin: 0 auto;
-  width: 100%;
-  min-height:100%;
-  background-color:#110022;
-  color:#eee;
-  overflow:hidden;
-}
-
-.container-full a {
-  color:#efefef;
-  text-decoration:none;
-}
-
-.v-center {
-  margin-top:7%;
-}
-
-// default layout 
-.down70px { padding-top: 70px; }
