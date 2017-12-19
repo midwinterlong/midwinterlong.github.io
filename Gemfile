@@ -14,8 +14,8 @@ gem 'nokogiri'
 
 gem "turbolinks", require: false
 
-# gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
-gem 'middleman-gh_pages'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
+# gem 'middleman-gh_pages'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
