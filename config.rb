@@ -88,5 +88,5 @@ activate :deploy do |deploy|
     deploy.deploy_method = :git
 
     deploy.remote = "git@github.com:midwinterlong/midwinterlong.github.io.git"
-    deploy.branch = "master"
+    # deploy.branch = "master"
 end
