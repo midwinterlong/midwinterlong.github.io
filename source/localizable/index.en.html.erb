@@ -11,39 +11,35 @@ per_page: 10
   <% end %>
 <% end %>
 
+<div>
+    <div class="posts">
+      <% page_articles.each_with_index do |article, i| %>
 
-<% page_articles.each_with_index do |article, i| %>
+          <section class="post">
+              <header class="post-header">
+                  <img width="48" height="48" alt="Eric Ferraiuolo&#x27;s avatar" class="post-avatar" src="images/reid-avatar.png">
 
-    <section class="articles">
-        <div class="columns is-multiline is-centered">
-            <div class="column is-8">
+                  <a href="<%= article.url %>">
+                    <h2 class="post-title"><%= article.title %></h2>
+                  </a>
 
-              <div class="card article">
-                <div class="card-content">
-                  <div class="media">
-                    
-                    <div class="media-content has-text-left">
-                    <h5>
-                      <span class="title is-5"><a href="<%= article.url %>"><%= article.title %></a></span>
-                    </h5>
-                          <h6>
-                            <span class="subtitle is-6"><%= article.date.strftime("%F %H:%M ") %> 
-                          </h6>
-                    </div>
-                  </div>
+                  <p class="post-meta">
+                      By <a class="post-author" href="#">admin</a>
+                      On <%= article.date.strftime("%F") %>
+                      <!-- Under <a class="post-category post-category-js" href="#"></a> -->
+                  </p>
+              </header>
 
-                <div class="content article-body">
-                  <%= truncate article.body, length: 280 %> ...
-                </div>
-                </div>
+              <div class="post-description">
+                  <p>
+                      <%= article.summary %>
+                      <%= link_to 'Read more…', article %>
+                  </p>
               </div>
-
-            </div>
-        </div>
-    </section>
-
-<% end %>
-
+          </section>
+      <% end %>
+    </div>
+</div>
 
 <% if paginate %>
   <% if next_page %>

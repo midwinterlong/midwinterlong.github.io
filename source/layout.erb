@@ -6,20 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="free software infomation">
         <meta name="author" content="">
-        <title><%= current_page.data.title || "天问" %></title>
-        <%= stylesheet_link_tag "all" %>
-        <%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
-        <%= javascript_include_tag  "all" %>
+        <title><%= current_page.data.title || "Free or not" %></title>
+
+        <%= stylesheet_link_tag "site" %>
+        <%= javascript_include_tag  "site" %>
     </head>
 
     <body>
         <%= partial "header" %>
-        <%= partial "nav_bottom" %>
-        <section class="section">
-            <div class="container">
-              <%= yield %>
+        <div id="layout" class="pure-g">
+            <div class="content pure-u-1 pure-u-md-3-4">
+                <%= yield %>
             </div>
-        </section>
+        </div>
         <%= partial "footer" %>
         <%= partial "ga" %>
     </body>
